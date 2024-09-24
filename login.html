@@ -7,19 +7,45 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
+<header>
+    <div>
+        <img src="assets/img/logo-mercado-liebre.svg" width="300" height="200" alt="logo mercado libre">
+        <p>Comprá en cuotas y sin tarjeta de crédito</p>
+    </div>
+</header>
+<main>
     <section>
-    <form>
+    <form action="/action_page.php" method="post">
+        <div>
         <label form="nombre-de-usuario">Nombre de usuario</label>
-        <input type="text" placeholder="Nombre de usuari@" name="nombre-de-usuario" id="nombre-de-usuario">
+        <input type="text" placeholder="Nombre de usuari@" name="nombre-de-usuario" id="nombre-de-usuario" required>
+        </div>
+        <div>
         <label for="contraseña">Contraseña</label>
-        <input type="password" placeholder="Contraseña" name="contraseña" id="contraseña">
-        <button type="submit">Enviar</button>
+        <input type="password" placeholder="Contraseña" name="contraseña" id="contraseña" required>
+        </div>
+        <div>
+        <button type="submit">Login</button>
+        </div>
     </form>
-     </section>
-
-    <section>
-        <input type="text" placeholder="Buscar...">
     </section>
+</main>
+<footer>
+    <div>
+        <h3>Pagá con tarjeta o en efectivo</h3>
+        <p>Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y siempre es seguro!</p>
+    </div>
+    <div>
+        <h3>Envío gratis desde $ 2.500</h3>
+        <p>Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de productos. Es un beneficio de Mercado Puntos.</p>
+    </div>
+    <div>
+        <h3>Seguridad, de principio a fin</h3>
+        <p>¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer, porque estás siempre protegid@.</p>
+    </div>
+    <div >
+        <p>Copyright © 1999-2020 MercadoLiebre S.R.L.</p>
+    </div>
+</footer>
 </body>
 </html>
