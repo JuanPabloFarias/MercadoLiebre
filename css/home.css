@@ -8,6 +8,17 @@
     /* list-style: none; */
 }
 
+.header__home-icon{
+    width: 70%;
+    height: 70%;
+}
+
+.main__image-banner{
+    width: 70%;
+    height: 10%;
+    margin: 0 auto;
+}
+
 li a{
     text-decoration: none;
     color: black;
@@ -17,18 +28,53 @@ ul{
     list-style-type: none
 }
 
-/* Por alguna razon dejo de aplicar color de fondo */
+
 header{  
     background-color: #EAC926;
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    background-color: #ebebeb;
+}
+
+footer{
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
 }
 
 /* p{
     width: 300px;
 } */
 
-img{
-    max-width: 300px;
-    max-height: 200px;
+.main__img__producto{
+    width:  70%;
+    height: 70%;
+    margin: 0 auto;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main section div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 5%;
+}
+
+main section div h4{
+    text-align: center;
 }
 
 .body__search-icon{
@@ -50,14 +96,17 @@ footer div p{  /* Descripciones en footer */
 
 .main__p__precio{
     font-size: 18px;
+    text-align: center;
 }
 
 .main__p__descuento{
     font-size: 16px;
+    text-align: center;
 }
 
 .main__section__titular{
     font-size: 24px;
+    text-align:center;
 }
 
 .burger-menu{
