@@ -10,3 +10,14 @@
 header{
     background-color: #EAC926;
 }
+
+.header__first__image{
+    color: red;
+}
+
+.header__login__first{
+    display:flex;
+    flex-wrap:nowrap
+    width:40%;
+    height:40%;
+}
