@@ -131,3 +131,128 @@ header{
     padding: 10px;
 }
 
+@media (max-width: 767px) {
+    .header__nav__container{
+        display:none;
+    }
+
+    .burger-menu{
+        display:flex;
+    }
+
+    /* .main__img__producto{
+        width:  80%;
+        height: 80%;
+    }
+
+    .main__product__details__padding{
+        padding: 0 10% 0 10%;
+    }
+
+    .main__image-banner {
+        width: 100%;
+    }
+
+    .main__section__h4{
+        display:none;
+    } */
+}
+
+
+@media (min-width: 767px) and (max-width: 1023px) {
+    .burger-menu{
+        display:none;
+    }
+    
+    header{
+        display: flex;
+        flex-direction: column;
+        align-content: left;
+    }
+    .header__container__div{
+        padding: 5% 5% 5% 5%;
+        display:flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: left;
+    }
+
+    .header__nav__container{
+        display:flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: left;
+    }
+
+    .header__logo__container{
+        display:flex;
+    }
+
+    .header__form__and__icon{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 10px;
+    }
+
+    .body__search-icon{
+        margin-left: 2%;
+    }
+
+    .header__input__search2{
+        height: 28px;
+        width: 250px;
+    }
+    
+    .footer__div{
+        justify-content: center;
+    }
+}
+
+@media (min-width: 1023px){
+    .burger-menu{
+        display:none;
+    }
+    
+    header{
+        display: flex;
+        flex-direction: column;
+        align-content: left;
+    }
+    .header__container__div{
+        padding: 5% 5% 5% 5%;
+        display:flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: left;
+    }
+
+    .header__nav__container{
+        display:flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: left;
+    }
+
+    .header__logo__container{
+        display:flex;
+    }
+
+    .header__form__and__icon{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 10px;
+    }
+
+    .body__search-icon{
+        margin-left: 2%;
+    }
+
+    .header__input__search2{
+        height: 28px;
+        width: 250px;
+    }
+
+    .footer__div{
+        justify-content: center;
+    }
+}
