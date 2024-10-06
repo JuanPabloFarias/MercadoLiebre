@@ -182,3 +182,7 @@ header{
     border-radius: 5px;
     padding: 10px;
 }
+
+.test{
+    font-weight: bold;
+}
