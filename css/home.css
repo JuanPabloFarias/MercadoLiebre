@@ -150,3 +150,59 @@ footer div p{  /* Descripciones en footer */
 .footer__div__icon{
     margin-bottom: 10px;
 }
+
+@media (max-width: 768px) {
+    .header__nav__container{
+        display:none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .burger-menu{
+        display:none;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+        align-content: left;
+    }
+    .header__container__div{
+        padding: 10% 5% 10% 5%;
+        display:flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: left;
+    }
+
+    .header__nav__container{
+        display:flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: left;
+    }
+
+    .header__logo__container{
+
+    }
+
+    .header__form__and__icon{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 10px;
+    }
+
+    .body__search-icon{
+        margin-left: 2%;
+    }
+
+    .header__input__search2{
+        height: 28px;
+        width: 250px;
+    }
+}
+
+@media (min-width: 1023px){
+    .burger-menu{
+        display:none;
+    }
+}
