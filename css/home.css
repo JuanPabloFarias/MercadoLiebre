@@ -133,7 +133,7 @@ footer div p{  /* Descripciones en footer */
 
 .footer__icon{
     color: #1259c3;
-    font-size: 50px;
+    font-size: 2em;
 }
 
 .footer__div{
@@ -148,6 +148,5 @@ footer div p{  /* Descripciones en footer */
 }
 
 .footer__div__icon{
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
-
