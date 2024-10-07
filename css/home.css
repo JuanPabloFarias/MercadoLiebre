@@ -8,6 +8,10 @@
     /* list-style: none; */
 }
 
+.header__container__div{
+    width: 100%;
+}
+
 main{
     background-color: #ebebeb;
 }
@@ -15,6 +19,19 @@ main{
 .div__main__container{
     margin-bottom: 5%;
     padding: 0 0 5% 0;
+}
+
+.header__logo__search__and__description{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.header__description__and__icon{
+    width: 25%;
 }
 
 .header__home-icon{
@@ -85,6 +102,21 @@ footer div p{  /* Descripciones en footer */
     font-size: 16px;
 }
 
+.main__div__precio__y__descuento{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.main__span__precio{
+    width: 40%;
+}
+
+.main__span__descuento{
+    width: 60%;
+}
+
 .main__product__box{
     display: flex;
     margin-bottom: 10px;
@@ -100,7 +132,7 @@ footer div p{  /* Descripciones en footer */
 }
 
 .main__product__details__background{
-    padding: 10px;
+    padding: 0 10px 10px 10px;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -110,15 +142,19 @@ footer div p{  /* Descripciones en footer */
 }
 
 .main__product__icon__container{
-    margin: 10px 0;
+    margin: 0 0;
+    position: relative;
+    left: 90%;
+    bottom: 10px;
 }
+
 
 .main__product__icon{
     text-align: start;
     border: 1px solid #39b54a;
     border-radius: 50%;
     color: #39b54a;
-    padding: 10px;
+    padding: 2px;
 }
 
 .main__p__precio{
@@ -193,6 +229,26 @@ footer div p{  /* Descripciones en footer */
 }
 
 @media (max-width: 767px) {
+
+    .header__container__div{
+        padding: 5% 0 0 0
+    }
+
+    .header__logo__container{
+        width: 35%;
+        height: 100%;
+    }
+    
+    .header__form__and__icon{
+        display: flex;
+        flex-direction: row;
+        width: 40%;
+    }
+    
+    .header__description__and__icon{
+        width: 80%;
+    }
+
     .header__nav__container{
         display:none;
     }
@@ -216,6 +272,9 @@ footer div p{  /* Descripciones en footer */
 }
 
 @media (min-width: 767px) and (max-width: 1023px) {
+
+
+
     .burger-menu{
         display:none;
     }
@@ -225,6 +284,7 @@ footer div p{  /* Descripciones en footer */
         flex-direction: column;
         align-content: left;
     }
+
     .header__container__div{
         padding: 5% 5% 5% 5%;
         display:flex;
@@ -241,13 +301,14 @@ footer div p{  /* Descripciones en footer */
     }
 
     .header__logo__container{
-        display:flex;
+        width: 25%;
+        height: 100%;
     }
 
     .header__form__and__icon{
         display: flex;
         flex-direction: row;
-        margin-bottom: 10px;
+        width: 25%;
     }
 
     .body__search-icon{
@@ -256,7 +317,7 @@ footer div p{  /* Descripciones en footer */
 
     .header__input__search2{
         height: 28px;
-        width: 250px;
+        width: 100%
     }
     
     .footer__div{
@@ -275,7 +336,7 @@ footer div p{  /* Descripciones en footer */
         align-content: left;
     }
     .header__container__div{
-        padding: 5% 5% 5% 5%;
+        padding: 2% 2% 2% 2%;
         display:flex;
         flex-direction: column;
         flex-wrap: nowrap;
@@ -305,7 +366,7 @@ footer div p{  /* Descripciones en footer */
 
     .header__input__search2{
         height: 28px;
-        width: 250px;
+        width: 100%;
     }
 
     .footer__div{
