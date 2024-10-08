@@ -92,7 +92,42 @@ header{
     text-align: start;
     font-weight: 400;
     color: #666;
+    display: none;
 }
+
+
+.main__product__box:hover{
+    
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+
+.main__section__h4{
+    display:block;
+}
+
+.main__product__icon{
+    /* animation-name: iconanimation; */
+    transform: rotate(-90deg);
+    transition: transform 0.7s linear;
+}
+}
+
+/* @keyframes iconanimation{
+    0% {
+
+    }
+    25% {
+        
+    }
+    50% {
+        
+    }
+    75% {
+        
+    }
+    100% {
+        
+    }
+} */
 
 .body__search-icon{
     display: flex;
@@ -240,6 +275,10 @@ footer div p{  /* Descripciones en footer */
     margin-bottom: 10px;
 }
 
+.footer__icon:hover{
+    color: #39b54a;
+}
+
 @media (max-width: 767px) {
 
     .header__form{
@@ -370,7 +409,6 @@ footer div p{  /* Descripciones en footer */
         flex-direction: column;
         justify-content: center; */
         width: 40%;
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
         margin-left: 5%;
         margin-right: 5%;
         margin-bottom: 5%;
@@ -455,7 +493,6 @@ footer div p{  /* Descripciones en footer */
         flex-direction: column;
         justify-content: center; */
         width: 20%;
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
         margin-left: 2%;
         margin-right: 2%;
     }
@@ -475,8 +512,24 @@ footer div p{  /* Descripciones en footer */
         padding: 0 0 0 0;
     }
 
-    .footer__div{
-        justify-content: center;
+    .footer__container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
     }
 
+    .footer__div{
+        width: 30%;
+        display: flex;
+            flex-direction: column;
+            justify-content: normal;
+            /* flex-wrap: wrap;
+            text-align: center; */
+    }
+
+    .footer__div__description{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
 }
