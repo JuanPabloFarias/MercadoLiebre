@@ -8,8 +8,17 @@
     /* list-style: none; */
 }
 
+.header__input__search2{
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+
 .header__container__div{
     width: 100%;
+}
+
+.header__logo__container{
+    margin-right: 2%;
 }
 
 main{
@@ -26,17 +35,18 @@ main{
     flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     margin-bottom: 20px;
 }
 
 .header__description__and__icon{
-    width: 25%;
+    width: 35%;
+    margin-left: 2%;
 }
 
 .header__home-icon{
-    width: 70%;
-    height: 70%;
+    width: 100%;
+    height: 100%;
 }
 
 .main__image-banner__container{
@@ -230,6 +240,31 @@ footer div p{  /* Descripciones en footer */
 
 @media (max-width: 767px) {
 
+    .header__form{
+        width:100%
+    }
+
+    .header__input__search2{
+        width:100%;
+        height: 30px;
+    }
+
+    .body__search-icon{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+        height: 30px;
+        height: 30px;
+        background-color: white;
+        border: none;
+        border-radius: 0 5px 5px 0;
+    }
+
+    .header__p{
+        text-align:center;
+    }
+
     .header__container__div{
         padding: 5% 0 0 0
     }
@@ -247,6 +282,7 @@ footer div p{  /* Descripciones en footer */
     
     .header__description__and__icon{
         width: 80%;
+        margin-top: 20px;
     }
 
     .header__nav__container{
@@ -286,7 +322,7 @@ footer div p{  /* Descripciones en footer */
     }
 
     .header__container__div{
-        padding: 5% 5% 5% 5%;
+        padding: 2% 2% 2% 2%;
         display:flex;
         flex-direction: column;
         flex-wrap: nowrap;
